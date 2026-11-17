@@ -1,0 +1,16 @@
+{
+  "dataset": "SyntheticXrayLike (offline demo)",
+  "model": "scikit-learn MLPClassifier(hidden_layer_sizes=(48,))",
+  "seed": 42,
+  "train_n": 1200,
+  "validation_n": 400,
+  "test_n": 468,
+  "requested_max_iter": 18,
+  "actual_iterations": 15,
+  "clean_accuracy": 0.9017094017094017,
+  "clean_pneumonia_sensitivity": 0.8760683760683761,
+  "clean_low_confidence_rate": 0.029914529914529916,
+  "low_confidence_threshold": 0.5073099255561828,
+  "quality_metric_note": "low_confidence_rate is a confidence-based proxy calibrated at the 5th percentile on clean validation images; it is not VLM self-report.",
+  "method_note": "Single-modality CPU reproduction of the artifact-generation and robustness evaluation pipeline. SyntheticXrayLike is simulated data; medmnist mode uses official PneumoniaMNIST. Neither mode reproduces the original VLM models or their numerical results."
+}

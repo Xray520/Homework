@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+.mplconfig/
+venv/
+data/*.npz
+results/model.joblib
